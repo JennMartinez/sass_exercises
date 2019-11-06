@@ -1,0 +1,13 @@
+button {
+    background-color: $primaryBtn;
+    &:hover {
+        background: orange;
+    }
+}
+
+button.btn-care {
+    background-color: $careBtn;
+    &:hover {
+        background: rgb(255, 0, 179);
+    }
+}
